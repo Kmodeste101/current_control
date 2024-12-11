@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 from arduino_current_controller_routines import *
 
 coil_sign=[1]*50 # initialize all coil signs to 1
+print(coil_sign)
 
 # coils you want to set to -1
 coils_to_set_negative=[9,10,12,14,17,27,30,32,33,34,35,

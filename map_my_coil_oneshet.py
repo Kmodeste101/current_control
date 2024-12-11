@@ -166,7 +166,7 @@ x_data=[]
 y_data=[]
 z_data=[]
 
-#not using a robot so, don't need this for loop?.
+#not using a robot
 for position in positions:
     # move to that [x,y,z] position
     for i in range(3):
